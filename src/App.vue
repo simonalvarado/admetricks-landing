@@ -19,6 +19,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
+  background-image: url("assets/logo.png");
+  background-repeat: no-repeat;
+  background-position: top -200px right -210px;
+  background-size: auto 110%;
   background-color: #0a2540;
   display: flex;
   justify-content: center;
