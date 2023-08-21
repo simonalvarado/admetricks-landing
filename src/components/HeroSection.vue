@@ -9,9 +9,9 @@
         <p class="hero-section__paragraph mb-3">
           El Mercado de la publicidad online es incierto y complejo, Admetricks te <span class="highlighted-word">ayuda a visibilizar cómo desempeñan las campañas y contenidos</span> versus los de tu competencia en tiempo real con reportes y alertas automáticas
         </p>
-        <div class="hero-section_buttons">
+        <div class="hero-section_buttons d-flex">
           <button class="btn primary-button">Solicitar demo</button>
-          <a href="#" class="secondary-button">Ver funcionalidades</a>
+          <a href="#" class="secondary-button d-flex align-items-center">Ver funcionalidades</a>
         </div>
       </div>
 
@@ -31,7 +31,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .hero-section {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0px;
   max-width: 1500px;
 }
@@ -70,6 +70,7 @@ export default {
   margin-right: 15px;
 }
 .secondary-button {
+  text-align: center;
   color: #ffffff;
   font-size: 13px;
   font-weight: 800;
@@ -87,15 +88,17 @@ export default {
     text-align: center;
     padding: 30px 20px 0px 20px;
   }
+  .hero-section__title{
+    font-size: 1.4rem;
+  }
   .hero-section__image {
     align-items: center;
   }
   .hero-section__image img {
     padding: 20px 20px;
-    width: 300px;
+    width: 75%;
   }
   .hero-section_buttons {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
