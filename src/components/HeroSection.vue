@@ -3,7 +3,7 @@
     <div class="row">
       <div class="hero-section__content col-md-6 d-flex flex-column justify-content-center">
         <p class="hero-section__description mb-2">Estamos para ayudarte</p>
-        <h2 class="hero-section__title mb-4">
+        <h2 class="hero-section__title mb-3">
           ¿Tienes problemas para&nbsp;<span class="underlined-text">entender el mercado</span><br>de la publicidad digital?
         </h2>
         <p class="hero-section__paragraph mb-3">
@@ -28,11 +28,9 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .hero-section {
   min-height: 100vh;
-  margin: 0px;
   max-width: 1500px;
 }
 .hero-section__content {
@@ -105,6 +103,11 @@ export default {
   .primary-button {
     margin-right: 0px;
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 800px) {
+  .hero-section{
+    min-height: 790px;
   }
 }
 </style>

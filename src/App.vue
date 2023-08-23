@@ -1,14 +1,17 @@
 <template>
   <HeroSection/>
+  <DollarGraphic/>
 </template>
 
 <script>
 import HeroSection from './components/HeroSection.vue'
+import DollarGraphic from './components/DollarGraphic.vue'
 
 export default {
   name: 'App',
   components: {
-    HeroSection
+    HeroSection,
+    DollarGraphic
   }
 }
 </script>
@@ -24,7 +27,5 @@ export default {
   background-position: top -200px right -210px;
   background-size: auto 110%;
   background-color: #0a2540;
-  display: flex;
-  justify-content: center;
 }
 </style>
