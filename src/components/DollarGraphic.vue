@@ -26,8 +26,6 @@ export default {
   async mounted() {
     try {
       this.dollarData = await getDollarData()
-      console.log('dollarData',this.dollarData.serie)
-      console.log('is dollar data an array?',Array.isArray(this.dollarData.serie))
       this.drawChart()
     } catch (error) {
       console.log(error)

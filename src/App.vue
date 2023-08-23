@@ -1,17 +1,20 @@
 <template>
   <HeroSection/>
   <DollarGraphic/>
+  <DownloadButton/>
 </template>
 
 <script>
 import HeroSection from './components/HeroSection.vue'
 import DollarGraphic from './components/DollarGraphic.vue'
+import DownloadButton from './components/DownloadButton.vue'
 
 export default {
   name: 'App',
   components: {
     HeroSection,
-    DollarGraphic
+    DollarGraphic,
+    DownloadButton
   }
 }
 </script>
