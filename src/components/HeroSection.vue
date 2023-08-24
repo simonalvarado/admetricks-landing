@@ -4,7 +4,7 @@
       <div class="hero-section__content col-md-6 d-flex flex-column justify-content-center">
         <p class="hero-section__description mb-2">Estamos para ayudarte</p>
         <h2 class="hero-section__title mb-3">
-          ¿Tienes problemas para&nbsp;<span class="underlined-text">entender el mercado</span><br>de la publicidad digital?
+          ¿Tienes problemas para&nbsp;<span class="underlined-text">entender el mercado</span><br> de la publicidad digital?
         </h2>
         <p class="hero-section__paragraph mb-3">
           El Mercado de la publicidad online es incierto y complejo, Admetricks te <span class="highlighted-word">ayuda a visibilizar cómo desempeñan las campañas y contenidos</span> versus los de tu competencia en tiempo real con reportes y alertas automáticas
@@ -108,6 +108,11 @@ export default {
 @media (min-width: 800px) {
   .hero-section{
     min-height: 790px;
+  }
+}
+@media (min-width: 769px) and (max-width: 910px) {
+  .hero-section img {
+    padding: 0px 55px 0px 45px;
   }
 }
 </style>
