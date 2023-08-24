@@ -23,7 +23,6 @@ export default {
     async generateExcel() {
         try {
             this.dollarData = await getDollarData()
-            console.log('dollarData',this.dollarData.serie)
 
             const data = this.dollarData.serie.reverse().map((entry, index) => {
                 const previousDayValue = index > 0 ? this.dollarData.serie[index - 1].valor : null;
@@ -35,8 +34,6 @@ export default {
                     Variacion: variation,
                 };
             });
-
-            console.log('data',data)
             
             this.exportToExcel(data)
         } catch (error) {
