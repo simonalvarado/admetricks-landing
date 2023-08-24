@@ -55,7 +55,7 @@ The Dollar Graphic component displays a line chart with the daily variation of t
 
 ### Download Button
 
-The Download Button component provides a button that generates and downloads an Excel file containing the dollar variation data. I contains three columns of data, the first one with the date, the second one with the dollar exchange rate in Chilean pesos (CLP), and the third one with the variation of the dollar exchange rate in Chilean pesos (CLP) with respect to the previous day. It uses the [xlsx](https://www.npmjs.com/package/xlsx) library for generating the Excel file.
+The Download Button component provides a button that generates and downloads an Excel file containing the dollar variation data. It contains three columns of data; the first one with the date, the second one with the dollar exchange rate in Chilean pesos (CLP), and the third one with the variation of the dollar exchange rate in Chilean pesos (CLP) with respect to the previous day. It uses the [xlsx](https://www.npmjs.com/package/xlsx) library for generating the Excel file.
 
 ![Download Button](/example_images/downloadButton.png)
 
@@ -71,4 +71,4 @@ Contributions are welcome! If you find any bugs or have any suggestions, please 
 
 ## Contact
 
-For any questions or comments, please contact me at my email, simonjesusalvarado@gmail.com
+For any questions or comments, please contact me at my email: simonjesusalvarado@gmail.com
