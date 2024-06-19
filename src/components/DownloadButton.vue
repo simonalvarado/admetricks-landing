@@ -52,13 +52,4 @@ export default {
 </script>
 
 <style scoped>
-.download-button__content button {
-    background-color: #3fc3ef;
-    color: #091416;
-    border-radius: 21px;
-    padding: 7px 29px;
-    font-size: 13px;
-    font-weight: 800;
-    margin-right: 15px;
-}
 </style>

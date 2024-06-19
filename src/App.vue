@@ -1,22 +1,25 @@
 <template>
-  <HeroSection/>
-  <DollarGraphic/>
-  <DownloadButton/>
+  <HeroSection />
+  <CardsSection />
+  <DollarGraphic />
+  <DownloadButton />
 </template>
 
 <script>
-import HeroSection from './components/HeroSection.vue'
-import DollarGraphic from './components/DollarGraphic.vue'
-import DownloadButton from './components/DownloadButton.vue'
+import HeroSection from "./components/HeroSection.vue";
+import DollarGraphic from "./components/DollarGraphic.vue";
+import DownloadButton from "./components/DownloadButton.vue";
+import CardsSection from "./components/CardsSection.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HeroSection,
     DollarGraphic,
-    DownloadButton
-  }
-}
+    DownloadButton,
+    CardsSection,
+  },
+};
 </script>
 
 <style>
@@ -25,10 +28,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
-  background-image: url("assets/logo.png");
-  background-repeat: no-repeat;
-  background-position: top -200px right -210px;
-  background-size: auto 110%;
   background-color: #0a2540;
 }
 </style>
